@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .card {
     background-color:lightslategray;
     border: 1px solid black;
@@ -7,13 +6,4 @@
     padding: 5px;
     color: white;
     box-shadow: 5px 5px gold;
-=======
-.Card {
-    border: 1px solid blue;
-    box-shadow: 5px 5px gold;
-    padding: 5px;
-    border-radius: 10px;
-    background-color:#224E69;
-    color: white;
->>>>>>> teste
 }
