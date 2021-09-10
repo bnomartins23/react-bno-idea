@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import Imc from './../components/Imc'
 
 function Home(){
     const [cont, setCont] = useState(1)
@@ -8,11 +9,9 @@ function Home(){
     }
 
     return (
-        <>
-            <h1>Contador's</h1>
-            <div>{cont}</div>
-            <button onClick={(e)=>handlerAdd()}>Adicionar</button>
-        </>
+        <div>
+            <Imc />
+        </div>
         )
 }
 
